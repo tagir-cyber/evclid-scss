@@ -1,0 +1,419 @@
+@media(max-width:1350px) {
+    .about-us__block-wrapper {
+        flex-direction: column;
+    }
+
+    .about-us__block {
+        margin-right: 0 !important;
+        width: 100%;
+    }
+
+    .about-us__block:not(:last-child) {
+        margin-bottom: 32px;
+    }
+
+    .dark-block__text {
+        max-width: none;
+    }
+
+    .footer__nav-wrapper{
+        padding-right: 32px;
+    }
+
+}
+
+@media(max-width: 1150px) {
+    .logo__image {
+        height: 46px;
+    }
+
+    .header__item:not(:last-child) {
+        margin-right: 60px;
+    }
+
+    .header__bottom-box {
+        padding-right: 0;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .header__nav {
+        padding-left: 120px;
+    }
+
+    /* hiro */
+    .hiro__block {
+        padding: 160px 77px;
+    }
+
+    .title-1 {
+        font-size: 60px;
+    }
+
+    .hiro__text {
+        font-size: 20px;
+    }
+
+    /* Этапы */
+    .etapy__block-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .etapy__padding {
+        padding: 0;
+    }
+
+    .etapy__block{
+        width: 100%;
+        margin-right: 0!important;
+    }
+
+    .etapy__image{
+        margin-bottom: 38px;
+    }
+
+    /* Вопросы */
+    .questions{
+        padding-bottom: 80px;
+    }
+
+    .questions__list{
+        flex-direction: column;
+    }
+
+    .questions__card{
+        width: 100%;
+        margin-right: 0!important;
+        margin-bottom: 32px;
+    }
+
+    /* footer  */
+    .footer__text{
+        display: none;
+    }
+
+    .footer__form-wrapper{
+        margin-right: 0;
+        width: 100%;
+        max-width: 541px;
+    }
+}
+
+@media(max-width: 850px) {
+    .logo__image {
+        height: 35px;
+    }
+
+    .header__item:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    .header__nav {
+        padding-left: 86px;
+    }
+
+    /* hiro */
+    .hiro__block {
+        padding: 160px 40px;
+        border-radius: 24px;
+    }
+
+    .title-1 {
+        font-size: 50px;
+    }
+
+    .hiro__text {
+        font-size: 18px;
+    }
+
+    /* about us  */
+    .about-us__card {
+        padding: 35px 48px 35px 170px;
+        min-height: 235px;
+        border-radius: 24px;
+    }
+
+    /* .about-us__card-box::before {
+        width: 114px;
+        height: 99px;
+        top: 35px;
+        left: 40px;
+    } */
+
+    .about-us__image {
+        border-radius: 24px;
+    }
+
+    .about-us__dark-block{
+        border-radius: 24px;
+    }
+
+    .about-us__image-1::before {
+        width: 114px;
+        height: 99px;
+        top: 68px;
+        left: 40px;
+        background-image: url("../img/project-1-768.svg");
+    }
+    .about-us__image-2::before {
+        width: 114px;
+        height: 99px;
+        top: 68px;
+        left: 40px;
+        background-image: url("../img/project-2-768.svg");
+    }
+
+    .etapy__image {
+        border-radius: 24px;
+    }
+
+     /* Вопросы */
+
+    .questions__card{
+        margin-bottom: 32px;
+        padding: 35px 65px 35px 40px;
+    }
+
+    .questions__card:last-child{
+        margin-bottom: 0;
+    }
+
+    .footer__nav{
+        display: none;
+    }
+
+    .footer__container{
+        flex-direction: column-reverse;
+    }
+
+    .footer__form-wrapper{
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .footer__nav-wrapper {
+        padding-right: 0;
+    }
+
+    
+
+}
+
+@media(max-width: 768px) {
+    .header__box {
+        min-height: 72px;
+    }
+
+    .header__bottom-box {
+        min-height: 60px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    .header__bottom-box {
+        position: static;
+        display: block;
+        overflow-x: scroll;
+    }
+
+    .header__nav {
+        padding-left: 0;
+        width: 100%;
+
+    }
+
+    .header__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__item {
+        white-space: nowrap;
+    }
+}
+
+@media(max-width: 550px) {
+    .header {
+        margin-bottom: 20px;
+        border-radius: 0 0 16px 16px;
+    }
+
+    /* hiro */
+    .hiro__block {
+        border-radius: 16px;
+        padding: 60px 22px;
+        min-height: 308px;
+        text-align: center;
+    }
+
+    .title-1 {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+
+    .hiro__text {
+        font-size: 12px;
+        margin-bottom: 32px;
+    }
+
+    .hiro__btn {
+        font-size: 12px;
+        padding: 13px 28px;
+        border-radius: 8px;
+    }
+
+    .title-2 {
+        font-size: 24px;
+    }
+
+    /* about-us  */
+
+    .about-us__image {
+        position: static;
+        height: 200px;
+        margin-bottom: 8px;
+        border-radius: 16px;
+    }
+
+    .about-us__dark-block {
+        position: static;
+        padding: 0;
+        min-height: auto;
+        background-color: transparent;
+        flex-direction: column;
+        align-items: flex-start;
+        color: #000;
+    }
+
+    /* .about-us__btn {
+        color: #000;
+    } */
+    .etapy__image {
+        border-radius: 16px;
+    }
+
+    .dark-block__text {
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+
+    .left-block {
+        min-height: auto;
+    }
+
+    .about-us__card {
+        padding: 0;
+        padding-top: 61px;
+        min-height: 135px;
+        border-radius: 0;
+        filter: none;
+    }
+/* 
+    .about-us__card-box::before {
+        width: 64px;
+        height: 49px;
+        top: 0px;
+        left: 0px;
+    } */
+
+    .about-us__image-1::before {
+        width: 64px;
+        height: 49px;
+        top: 0px;
+        left: 0px;
+        background-image: url("../img/project-1-320.svg");
+    }
+    .about-us__image-2::before {
+        width: 64px;
+        height: 49px;
+        top: 0px;
+        left: 0px;
+        background-image: url("../img/project-2-320.svg");
+    }
+
+    .orange-border-btn{
+        color: #F90;
+        padding: 12.31px 44px;
+    }
+
+       /* Вопросы */
+       .questions{
+        padding-bottom: 60px;
+    }
+
+       .questions__card{
+        border: none;
+        padding: 0;
+    }
+
+    .etapy__image{
+        min-height: 160px;
+        margin-bottom: 16px;
+    }
+
+    .etapy__button-wrapper{
+        /* justify-content: space-between; */
+        line-height: normal;
+    }
+
+    .etapy__btn-left{
+        /* padding: 12px 43px; */
+        text-align: center;
+        width: 50.625%;
+        padding: 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-radius: 8px;
+        margin-right: 10px;
+        flex-grow: 1;
+    }
+
+    .etapy__btn-right{
+        /* padding: 12px 31px; */
+        text-align: center;
+        width: 36.87%;
+        padding: 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-radius: 8px;
+        flex-grow: 1;
+    }
+
+    .footer_btn-wrapper{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .form__btn{
+        margin-right: 0;
+        margin-bottom: 20px;
+        padding: 12.3px 19px;
+    }
+
+    .footer__nav-wrapper{
+        max-width: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__logo{
+        width: 131px;
+    }
+
+    .footer__sotial-link{
+        margin-right: 16px;
+    }
+
+    .footer__sotial-link svg{
+        width: 40px;
+        height: 40px;
+    }
+
+}

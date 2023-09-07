@@ -1,0 +1,19 @@
+// @import 'mixins.scss';
+.questions {
+    padding-bottom: 100px;
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__card {
+        padding: 65px 59px 65px 60px;
+        border-radius: 32px;
+        border: 1px solid #CACACA;
+        background: #FFF;
+        width: calc((100% - (32px*2))/3);
+    }
+    &__card:not(:last-child){
+        margin-right: 32px;
+    }
+}

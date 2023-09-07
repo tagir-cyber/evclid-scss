@@ -1,0 +1,49 @@
+.etapy{
+    padding-bottom: 100px;
+
+    &__text-wrapper{
+        margin-bottom: 18px;
+    }
+
+    &__block-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__block{
+        width: calc((100% - 32px)/2);
+    }
+
+    &__block:not(:last-child){
+        margin-right: 32px;
+    }
+
+    &__padding{
+        padding-right: 110px;
+    }
+
+    &__image{
+        background-color: red;
+        background-image: url("../img/how-1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 284px;
+        border-radius: 32px;
+    }
+
+    &__button-wrapper{
+        display: flex;
+    }
+
+
+    &__btn-left{
+        margin-right: 32px;
+        @include button-type(1);
+    }
+
+    &__btn-right{
+        @include button-type(2);
+    }
+}
+

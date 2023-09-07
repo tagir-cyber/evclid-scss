@@ -1,0 +1,43 @@
+.hiro {
+    color: #fff;
+    padding-bottom: 50px;
+    &__block {
+        min-height: 620px;
+        background-color: red;
+        background-image: url("../img/hero-1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px 80px;
+        border-radius: $size32;
+    }
+
+    &__text {
+        max-width: 790px;
+        margin-bottom: 90px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__btn {
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background-color: $orange;
+        padding: 25px 39px;
+        border-radius: 16px;
+    }
+
+}
+
+.title-1 {
+    max-width: 837px;
+    margin-bottom: 24px;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}

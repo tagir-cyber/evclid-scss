@@ -1,0 +1,188 @@
+.footer {
+    padding: 50px 0;
+    background-color: #000;
+    min-height: 200px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        // flex-wrap: wrap;
+    }
+
+    &_text-color {
+        color: #cacaca;
+    }
+
+    &_box-width {
+        max-width: 363px;
+    }
+
+    &__logo {
+        margin-bottom: 20px;
+    }
+
+    &__nav-wrapper {
+        padding-right: 113px;
+    }
+
+    &__sotial-link-wrapper {
+        display: flex;
+    }
+
+    &__sotial-link {
+        margin-right: 25px;
+        font-size: 0;
+        outline: none;
+        &:hover svg path{
+            fill: #FF9900;
+        }
+        &:focus{
+            outline: 2px solid #FF9900;
+            outline-offset: 3px;
+        }
+        &:active svg path{
+            fill: #E1670E;
+        }
+    }
+
+    &__sotial-link:last-child {
+        margin-right: 0;
+    }
+
+
+
+    &_box-width {
+        max-width: 363px;
+    }
+
+    &__nav {
+        margin-bottom: 90px;
+    }
+
+    &__item {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+    }
+
+    &__link{
+
+        transition: color .4s, outline .4s;
+        &:hover{
+            color: #FF9900;
+        }
+        &:focus{
+            outline: 2px solid #FF9900;
+            outline-offset: 3px;
+        }
+
+        &:active{
+            color: #E1670E;
+        }
+    }
+
+    &__form-wrapper {
+        width: 570px;
+        // background-color: red;
+        margin-right: 32px;
+        flex-shrink: 0;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input {
+        margin-bottom: 25px;
+        border-radius: 16px;
+        background-color: #414141;
+        min-height: 60px;
+        padding: 14px 24px;
+        color: #cacaca;
+        outline: none;
+
+        &:hover{
+            background-color: #666666;
+        }
+        &:focus{
+            background-color: #666666;
+        }
+        &:active{
+            background-color: #666666;
+        }
+    }
+
+    &__textarea {
+        margin-bottom: 32px;
+        border-radius: 16px;
+        background-color: #414141;
+        resize: none;
+        min-height: 150px;
+        padding: 14px 24px;
+        color: #cacaca;
+        border: none;
+        outline: none;
+
+        &:hover{
+            background-color: #666666;
+        }
+        &:focus{
+            background-color: #666666;
+        }
+        &:active{
+            background-color: #666666;
+        }
+    }
+
+    &__text {
+        padding-top: 75px;
+    }
+
+}
+
+.form__btn {
+    padding: 19px 52px;
+    background-color: #f90;
+    border-radius: 16px;
+    margin-right: 22px;
+}
+
+.form__btn:focus-visible{
+    border: none;
+    outline: none;
+}
+
+.check {
+    position: relative;
+    padding-left: 18px;
+}
+
+.check__input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.check__input:checked~.check__box {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='10' height='8' viewBox='0 0 10 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M8.94952 1.08233L3.99977 6.03208L1.17135 3.20365' stroke='%2397EE3F' stroke-width='2'/%3e%3c/svg%3e ");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.check__box {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 14px;
+    height: 14px;
+    display: block;
+    border: 1px solid #CACACA;
+}
+
+.check__input:focus ~.check__box{
+    border: 2px solid red;
+}
+

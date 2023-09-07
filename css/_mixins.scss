@@ -1,0 +1,20 @@
+// @mixin cards-width($cards-number, $margin-number){
+//     width: 1770px - (($cards-number - 1) * $margin-number);
+// }
+
+@mixin button-builder($font-weight, $padding-top, $padding-left, $background, $color, $border-color){
+    border-radius: 16px;
+    padding: $padding-top $padding-left;
+    background-color: $background;
+    color: $color;
+    font-weight: $font-weight;
+    border: 1px solid $border-color;
+}
+
+@mixin button-type($type){
+    @if ($type == 1){
+        @include button-builder(700, 18px, 39px, #F90, #fff, #F90);
+    }@else if ($type == 2){
+        @include button-builder(400, 18px, 38px, transparent, #000, #000);
+    }
+}
