@@ -222,7 +222,7 @@
     .header__nav {
         padding-left: 0;
         width: 100%;
-
+        overflow-x: auto;
     }
 
     .header__list {
