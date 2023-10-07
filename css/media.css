@@ -98,6 +98,11 @@
         width: 100%;
         max-width: 541px;
     }
+
+    .form__btn{
+        padding: 19px 37.5px;
+        margin-right: 10px;
+    }
 }
 
 @media(max-width: 850px) {
